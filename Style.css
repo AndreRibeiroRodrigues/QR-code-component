@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 500px;
+    width: 90%;
+    margin:32px auto;
+
+    display: grid;
+    gap: 24px;
+    background-color: hsl(219, 92%, 90%);
+}
+
+div img{
+    width: 450px;
+    margin: 25px;
+    border-radius: 25px;
+}
+.QR{
+    
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+}
+h2{
+    font-size: medium;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700px;
+}
+h3{
+    font-size: small;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+    font-weight: 400px;
+    font-family: 'Inter', sans-serif;
+}
